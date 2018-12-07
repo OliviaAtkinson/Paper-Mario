@@ -1,0 +1,15 @@
+body{
+    background: url(imgs/Grass_BG.png) no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    text-align: center;
+}
+@font-face{
+    font-family: marioFont;
+    src: url(Mario_and_Luigi.ttf);
+}
+.title{
+    font-family: marioFont;
+}
