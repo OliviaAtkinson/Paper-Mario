@@ -1,0 +1,5 @@
+git pull: retrive files from others commits
+
+git add . : adds all files 
+git commit -m "(what changed)"
+git push 

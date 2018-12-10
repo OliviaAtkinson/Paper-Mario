@@ -5,6 +5,8 @@ body{
     margin: 0px;
     padding: 0px;
     height: 100vh;
+    text-align: center;
+    
     /* text-align: center; */
     font-family: 'Gamja Flower', cursive;
 }
@@ -42,6 +44,47 @@ body{
 .info{
     text-align: center;
 }
+.title{
+    font-family: marioFont;
+}
+.player1{
+display: flex;
+margin-right:20%;
+text-align: left;
+width: 20px;
+margin-left:20%;
+position: absolute;
+
+}
+
+
+.player2{
+    text-align:right;
+    
+    margin-right:20%;
+
+    
+}
+.healthBar1{
+    margin-top: 80px;
+    margin-left: 80%;
+}
+.attacks1{
+
+}
+.player1name{
+    padding:5%;
+    margin:0%;
+
+}
+
+.image1{
+    width:100px;
+    height: 110px;
+}
+.image2{
+    width:100px;
+    height:130px;
 .attackList{
     margin: 50px;
     font-size: 20px;
