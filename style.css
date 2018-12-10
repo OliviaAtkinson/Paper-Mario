@@ -29,6 +29,7 @@ body{
 .image1{
     width: 100px;
     height: 110px;
+    
 }
 .image2{
     width: 140px;
@@ -37,4 +38,8 @@ body{
 
 .info{
     text-align: center;
+}
+.attackList{
+    margin: 50px;
+    font-size: 20px;
 }
