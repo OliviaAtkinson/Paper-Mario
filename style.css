@@ -29,11 +29,14 @@ body{
 .image1{
     width: 100px;
     height: 110px;
-    
+    position: absolute;
+    bottom: 110px;
 }
 .image2{
     width: 140px;
     height: 110px;
+    position: absolute;
+    bottom: 105px;
 }
 
 .info{
