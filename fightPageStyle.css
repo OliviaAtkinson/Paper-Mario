@@ -6,10 +6,9 @@ body{
     padding: 0px;
     height: 100vh;
     text-align: center;
-    
-    /* text-align: center; */
     font-family: 'Gamja Flower', cursive;
 }
+
 .main{
     display: flex;
     align-items: flex-start;
@@ -29,16 +28,16 @@ body{
 }
 
 .image1{
-    width: 100px;
-    height: 110px;
-    position: absolute;
-    bottom: 110px;
-}
-.image2{
     width: 140px;
     height: 110px;
     position: absolute;
     bottom: 105px;
+}
+.image2{
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    bottom: 113px;
 }
 
 .info{

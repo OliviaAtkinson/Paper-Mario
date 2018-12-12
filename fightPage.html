@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Super Mario</title>
+    <link rel = "stylesheet" href = "fightPageStyle.css">
+    <script type = "module" src = "/js/main.js"></script>
+</head>
+
+<body>
+    <div class = "wrapper">
+        <div class = "main">
+            <h1 id = "title">Super Duper Fight</h1>
+        </div>
+
+            <div class = "player1">
+                <div class = "info">
+                    <h2 class = "player1name">Luigi</h2>
+                    <p class = "healthBar1">HP: 100%</p>
+                    <p class = "powerUp1"></p>
+                </div>
+                <div class = "attackList">
+                    <h3 class = "attacks1">Attacks</h3>
+                    <dl>
+                        <dd><button type="button" onClick="attackBtn1()">Pounce Attack!   </button></dd>
+                        <dd><button type="button" onClick="attackbtn2()">Knockback Attack!</button></dd>
+                        <dd><button type="button" onClick="attackBtn3()">Thunder Rush!    </button></dd>
+                        <dd><button type="button" onClick="attackBtn4()">Cyclone Smash!   </button></dd>
+                    </dl>
+                </div>
+                <div class = "playerImage1" >
+                    <img class = "image1" src = "imgs/luigi.png">
+                </div>
+            </div>
+
+            <div class = "player2">
+                <div class = "info">
+                    <h2 class = "player2name">Princess Peach</h2>
+                    <p class = "healthBar2">HP: 100%</p>
+                    <p class = "powerUp2"></p>
+                </div>
+                <div class = "attackList">
+                    <h3 class = "attacks2">Attacks</h3>
+                    <dl>
+                        <dd><button type="button" onClick="attackBtn5()">Neutral Attack!</button></dd>
+                        <dd><button type="button" onClick="attackBtn6()">Dash Attack!</button></dd>
+                        <dd><button type="button" onClick="attackBtn7()">Floor Attack!</button></dd>
+                        <dd><button type="button" onClick="attackBtn8()">Up Smash!</button></dd>
+                    </dl>
+                </div>
+                <div class = "playerImage2">
+                    <img class = "image2" src = "imgs/princess-peach.png">
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
