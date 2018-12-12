@@ -7,12 +7,11 @@ body{
     height: 100vh;
     text-align: center;
     
-    /* text-align: center; */
     font-family: 'Gamja Flower', cursive;
 }
 .main{
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
 }
 .player1{
     position: absolute;
@@ -44,3 +43,4 @@ body{
 .info{
     text-align: center;
 }
+
