@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+body{
+    background: url(imgs/Grass_BG.png) no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.player1{
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    margin: 0px;
+}
+.player2{
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    margin: 0px;
+    margin-left: 50%;
+}
+
+.image1{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    bottom: 105px;
+}
+.image2{
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    bottom: 113px;
+}
+
+.info{
+    text-align: center;
+}
+
