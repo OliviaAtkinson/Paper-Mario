@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
+
+body{
+    background:skyblue url(imgs/super_mario_artwork.png) no-repeat fixed;
+    background-size:auto;
+    background-position:300px 600px;
+    
+    text-align: center;
+      
+  }
+  #list{
+    font-family: 'Bungee', cursive;
+  font-size: 80px;
+  }
+  a:link, a:visited {
+    background-color:green;
+    color:black;
+    font-size: 30px;
+    font-family: 'Sigmar One', cursive;
+    padding: 25px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40%;
+  }
+  
+  a:hover, a:active {
+    background-color:sandybrown;
+  }
+  

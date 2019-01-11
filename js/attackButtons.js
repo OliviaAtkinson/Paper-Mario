@@ -19,4 +19,4 @@ function attackBtn() {
     }
 }
 
-attackBtn()
+attackBtn();

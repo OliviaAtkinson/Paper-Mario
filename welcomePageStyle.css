@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
+body{
+  background: url(imgs/Grass_BG.png) no-repeat fixed;
+  background-size:cover;
+  
+  text-align: center;
+    
+}
+
+#title{
+  font-family: 'Bungee', cursive;
+  font-size: 80px;
+}
+#choose{
+  font-family: 'Sigmar One', cursive;
+  font-size: 40px;
+}
+
+
+a:link, a:visited {
+    background-color:green;
+    color: white;
+    font-size: 30px;
+    font-family: 'Sigmar One', cursive;
+    padding: 25px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40%;
+  }
+  
+  a:hover, a:active {
+    background-color:sandybrown;
+  }
